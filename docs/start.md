@@ -1,9 +1,8 @@
----
-title: lerobot 前期准备~
----
+# lerobot 前期准备~
+[[toc]]
 
 ## 安装mini conda
-- 计划使用macos macmini 现在也比较便宜
+- 计划使用macos macmini现在也比较便宜
 ```shell
 mkdir -p ~/miniconda3
 curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh -o ~/miniconda3/miniconda.sh
