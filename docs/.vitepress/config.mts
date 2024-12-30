@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Robot-Docs",
   description: "A website for learing embodied AI",
+  base: "/Robot-Docs/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
