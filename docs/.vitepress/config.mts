@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Robot-Docs",
-  description: "A website for learing embodied AI",
+  description: "A website for learing embodied AI🤖",
   base: '/Robot-Docs/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -24,9 +24,16 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/BriceLucifer' }
-    ]
+    ],
+
+    // 搜索栏
+    search: {
+      provider: 'local',
+    }
   },
+  // math
   markdown: {
     math: true
-  }
+  },
+
 })
