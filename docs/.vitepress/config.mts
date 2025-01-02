@@ -5,6 +5,12 @@ export default defineConfig({
   title: "Robot-Docs",
   description: "A website for learing embodied AI🤖",
   base: '/Robot-Docs/',
+  // favicon
+  head: [
+    ['link', { rel: 'icon', href: '/Robot-Docs/favicon.ico' }]
+  ],
+
+  // 主题设置
   themeConfig: {
     logo: '/robot.png',
     // https://vitepress.dev/reference/default-theme-config
@@ -30,11 +36,10 @@ export default defineConfig({
     // 搜索栏
     search: {
       provider: 'local',
-    }
+    },
   },
   // math
   markdown: {
     math: true
   },
-
 })
