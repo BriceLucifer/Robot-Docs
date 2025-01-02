@@ -6,6 +6,7 @@ export default defineConfig({
   description: "A website for learing embodied AI🤖",
   base: '/Robot-Docs/',
   themeConfig: {
+    logo: '/robot.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
@@ -17,7 +18,7 @@ export default defineConfig({
         text: 'Guide Lines',
         items: [
           { text: 'Get Started', link: '/start' },
-          { text: 'Examples', link: '/examples' }
+          { text: 'Setup', link: '/setup' }
         ]
       }
     ],

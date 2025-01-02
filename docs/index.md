@@ -14,8 +14,8 @@ hero:
       text: Get Started
       link: /start
     - theme: alt
-      text: Examples
-      link: /examples
+      text: Setup
+      link: /setup
 
 features:
   - icon: 🤗
