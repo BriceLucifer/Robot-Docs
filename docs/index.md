@@ -16,6 +16,9 @@ hero:
     - theme: alt
       text: Setup
       link: /setup
+    - theme: alt
+      text: Windows Setup
+      link: /windows
 
 features:
   - icon: 🤗
