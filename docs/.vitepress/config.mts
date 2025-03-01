@@ -24,7 +24,8 @@ export default defineConfig({
         text: 'Guide Lines',
         items: [
           { text: 'Get Started', link: '/start' },
-          { text: 'Setup', link: '/setup' }
+          { text: 'Setup', link: '/setup' },
+          { text: 'Windows Setup', link: '/windows'},
         ]
       }
     ],
