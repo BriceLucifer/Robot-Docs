@@ -27,6 +27,12 @@ export default defineConfig({
           { text: 'Setup', link: '/setup' },
           { text: 'Windows Setup', link: '/windows'},
         ]
+      },
+      {
+        text: 'Robot Tutorials',
+        items: [
+          { text: 'SO-100 机械臂使用指南', link: '/so100' },
+        ]
       }
     ],
 
